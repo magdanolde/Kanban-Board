@@ -107,3 +107,15 @@ body {
 .input__author {
 	margin-bottom: 8px;
 }
+
+.input__button--prev {
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 70px;
+}
+
+.input__button--next {
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 5px;
+}
