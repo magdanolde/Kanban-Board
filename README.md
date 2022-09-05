@@ -31,7 +31,8 @@ Na początku zawsze dobrze określić podstawowe wymagania dla [MVP](http://www.
 
 ### Przechowywanie danych
 
-Na tym etapie chcemy wykorzystać najszybszą do implementacji możliwość zapisywania informacji o zadaniach. Dlatego wybór padł na [localStorage](http://kursjs.pl/kurs/storage/storage.php). W ten sposób będzie można testować rozwiązanie, nie przejmując się np. zewnętrzną bazą danych.
+Na tym etapie chcemy wykorzystać najszybszą do implementacji możliwość zapisywania informacji o zadaniach. Dlatego wybór padł na [localStorage]
+(http://kursjs.pl/kurs/storagestorage.php). W ten sposób będzie można testować rozwiązanie, nie przejmując się np. zewnętrzną bazą danych.
 
 Pracę ułatwiłby Ci hook, który udostępniałby metody umożliwiające zapis i odczyt danych z localStorage, np.:
 ```

@@ -4,6 +4,7 @@ import { TasksContext } from "../contexts/TasksContext";
 function Column(props) {
   const { moveNext } = useContext(TasksContext);
   const { movePrev } = useContext(TasksContext);
+  const { deleteTask } = useContext(TasksContext);
   const { title, items, limit, id } = props;
   function renderItems() {
     return items.map((item) => {
@@ -11,6 +12,12 @@ function Column(props) {
         <div className="column__input">
           <div className="input__author"> Resposible: {item.author}</div>
           <div className="input__taskname">Task: {item.taskName}</div>
+          <button
+            className="input__button--remove"
+            onClick={() => deleteTask(id, item)}
+          >
+            <div>X</div>
+          </button>
           <button
             className="input__button--prev"
             onClick={() => movePrev(id, item)}
