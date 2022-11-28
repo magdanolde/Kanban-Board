@@ -36,6 +36,8 @@ Then, you may run webpack typing in the terminal:
 
 npm start
 
+![Kanban_board](https://user-images.githubusercontent.com/83141358/204347964-4e0fc58f-f5ac-455d-86b9-58dfb9d6a4b7.png)
+
 ### 💻 TECHNOLOGIES
 
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
